@@ -24,3 +24,95 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+.navbar{
+  font-size: 140%;
+font-weight: lighter;
+margin-top: 0.8%;
+margin-right: 60%;
+margin-left: 2%;
+
+
+}
+
+.navbarItems{
+  color: #0a0a0a;
+  text-decoration: none;
+
+}
+
+.cards{
+  display:flex;
+  justify-content: center;
+  padding-top: 4%;
+  padding-bottom: 1%;
+  
+
+}
+
+.card:hover{
+  background-color: #f3f3f3;
+}
+
+
+
+.t{
+  font-weight: bold;
+  font-size: 300%;
+  margin-top: 10%;
+  display: flex;
+  justify-content: center;
+}
+.t2{
+  font-weight: bold;
+  font-size: 220%;
+  margin-top: 10%;
+  display: flex;
+  justify-content: center;
+}
+
+.p{
+  font-size: 150%;
+  font-weight: lighter;
+  display: flex;
+  justify-content: center;
+}
+
+.tudo{
+  display: flex;
+  justify-content: space-around;
+}
+
+.lista{
+  margin-right: 10%;
+}
+
+.contato{
+  display: flex;
+  justify-content: center;
+}
+
+.caixa_texto{
+  background-color: #f3f3f3;
+  color: #8e8e8e;
+  margin-bottom: 10%;
+  padding: 5%;
+  font-size: large;
+
+}
+
+
+.caixa_texto_m{
+  background-color: #f3f3f3;
+  color: #8e8e8e;
+  margin-bottom: 10%;
+  padding: 5%;
+  padding-bottom: 40%;
+  font-size: large;
+
+}
+
+.tc{
+margin-bottom: 10%;
+}
+
