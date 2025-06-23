@@ -1,26 +1,18 @@
 import Navbar from "@/components/navbar";
+import Footer from "@/components/footer";
+
 
 export default function Home() {
   return (
 
-
-
-    <main>
+    <main  className="image">
       <Navbar></Navbar>
-      <div class="t">Bem vindo ao Meu Portifolio</div >
+      <div class="tp">Bem Vindo ao Meu Portifolio</div >
 
-
-
-
-
-
+      <Footer></Footer>
     </main>
-
-
-
 
   );
 }
-
 import 'bootstrap/dist/css/bootstrap.min.css';
 

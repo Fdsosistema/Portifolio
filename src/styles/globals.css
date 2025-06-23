@@ -28,18 +28,42 @@ body {
 .navbar{
   font-size: 140%;
 font-weight: lighter;
-margin-top: 0.8%;
+padding: 3%;
 margin-right: 60%;
 margin-left: 2%;
-
-
+position: relative;
 }
 
 .navbarItems{
   color: #0a0a0a;
   text-decoration: none;
+  padding: 1%;
+position: relative;
+}
+
+.footer{
+  font-size: 120%;
+font-weight: lighter;
+margin-top: 10%;
+margin-bottom: 10%
 
 }
+
+.footerItems{
+  color: #f3f3f3;
+}
+
+.linha{
+  border-bottom: 4px solid #0a0a0a;
+  border:solid;
+  display:flex;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  background-color: #171717;
+  
+}
+
 
 .cards{
   display:flex;
@@ -71,6 +95,19 @@ margin-left: 2%;
   justify-content: center;
 }
 
+.tp{
+  font-weight: lighter;
+  font-size: 350%;
+  margin-top: 10%;
+  display: flex;
+  justify-content: center;
+   text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.7);
+   color: rgb(0, 0, 0);
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   
+   position: relative;
+}
+
 .p{
   font-size: 150%;
   font-weight: lighter;
@@ -83,8 +120,13 @@ margin-left: 2%;
   justify-content: space-around;
 }
 
+.texto{
+  width: 60%;
+}
+
 .lista{
-  margin-right: 10%;
+  width:80%;
+  
 }
 
 .contato{
@@ -93,7 +135,7 @@ margin-left: 2%;
 }
 
 .caixa_texto{
-  background-color: #f3f3f3;
+  background-color: #cccccc;
   color: #8e8e8e;
   margin-bottom: 10%;
   padding: 5%;
@@ -103,7 +145,7 @@ margin-left: 2%;
 
 
 .caixa_texto_m{
-  background-color: #f3f3f3;
+  background-color: #cccccc;
   color: #8e8e8e;
   margin-bottom: 10%;
   padding: 5%;
@@ -116,3 +158,19 @@ margin-left: 2%;
 margin-bottom: 10%;
 }
 
+.image{
+
+ 
+background-image: url(/images/pexels-divinetechygirl-1181298.jpg);
+background-size: cover;
+background-position: center;
+min-height: 100vh;
+
+z-index: -1;
+}
+
+.fundo{
+  background-color: white;
+
+
+}

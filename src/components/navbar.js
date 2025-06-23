@@ -1,6 +1,6 @@
 export default function Navbar() {
     return (
-        <nav >
+        <nav class="fundo">
             <ul class="navbar">
                 <a class="navbarItems" href="/"><li>Início</li></a>
                 <a class="navbarItems" href="Projeto"><li>Projeto</li></a>

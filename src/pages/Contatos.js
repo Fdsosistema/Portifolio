@@ -1,5 +1,6 @@
 
 import Navbar from "@/components/navbar";
+import Footer from "@/components/footer";
 
 export default function Contatos() {
     return (
@@ -16,6 +17,8 @@ export default function Contatos() {
                     <li class="caixa_texto_m"><label>Sua Mensagem:</label></li>
                 </ul>
             </div>
+
+            <Footer></Footer>
 
         </main >
 
